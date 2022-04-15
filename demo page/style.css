@@ -1,0 +1,61 @@
+body {
+    margin:0;
+    font-family:Helvetica, sans-serif;
+    height:100%;
+    display:inline-block;
+}
+
+nav {
+    background:#234466;
+    padding:15px;
+    
+}
+
+nav ul{
+    text-align: center;
+    margin:0;
+    padding: 10px;
+}
+
+nav ul li {
+    padding: 0 20px;
+    display: inline-block;
+}
+
+nav ul li a {
+    display:block;
+    padding:10px 20px;
+    color:white;
+    text-decoration:none;
+}
+
+/* article {
+    width:90%;
+    margin:auto;
+
+} */
+aside{
+    width:20%;
+    
+}
+section {
+    width:60%;
+    margin:auto;
+}
+header h1 {
+    font-size:25px;
+}
+#writtenby {
+    font-size:14px;
+    font-style:italic;
+}
+
+#articleContent {
+    font-size:20px;
+}
+
+footer{
+    background:#234466;
+    color:white;
+    text-align: center;
+}
