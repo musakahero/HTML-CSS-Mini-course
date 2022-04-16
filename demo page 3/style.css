@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 *{
-    background:#6564b58e;
+    background:#6564b5;
     box-sizing:border-box;
     margin:0;
     padding:0;
     font-family:'Poppins', sans-serif;
+}
+body {
+    width:90%;
+    height: auto;
+    padding:0;
+    margin:auto;
+    background: yellowgreen;
+    /* border: 5px solid red; */
+    
 }
 
 .navbar{
@@ -30,6 +39,7 @@ background-color: #6564B5;
 .navbar a {
     text-decoration: none;
 }
+
 .navbar a:visited {
     color:black;
 }
@@ -64,7 +74,7 @@ background-color: #6564B5;
 
 .navbar .navbar-items li {
     /* border: 3px solid green; */
-    padding-left: 20px;
+    padding: 0 10px;
     font-size:20px;
     background-color: yellowgreen;
 }
@@ -78,3 +88,40 @@ background-color: yellowgreen;
 .navbar .navbar-items li a:hover{
     color:yellow;
     }
+
+.container {
+    /* border: 5px solid red; */
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:larger;
+}
+.text {
+    /* display:flex; */
+    /* border: 3px solid cyan; */
+    height:100%;
+    width: 50%;
+    color:yellowgreen;
+    font-size: 2em;
+    padding-left:40px;
+
+}
+aside {
+    display:flex;
+    width:50%;
+    justify-content: right;
+    /* border: 3px solid cyan; */
+
+}
+
+aside img {
+    width:100%;
+}
+
+header h1 {
+    height:200px;
+    background-color: yellowgreen;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
