@@ -43,6 +43,9 @@ body {
     text-decoration: none;
 }
 
+.navbar a:link{
+    color:black;
+}
 .navbar a:visited {
     color: black;
 }
